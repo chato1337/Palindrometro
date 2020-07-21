@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    text-align: center;
+}
+
+.form-container{
+    color: white;
+}
+
+.form-container h1 {
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.results {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.results strong {
+    color: yellowgreen;
+}
+
+
+footer small {
+    color: black;
+}

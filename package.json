@@ -1,0 +1,16 @@
+{
+  "name": "palindrometro",
+  "version": "1.0.0",
+  "description": "Detecta sin un strig es palindromo o no",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javaScript",
+    "palindromo",
+    "detector"
+  ],
+  "author": "Didier Cuetia <chato1337@gmail.com>",
+  "license": "MIT"
+}
