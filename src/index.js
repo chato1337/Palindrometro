@@ -33,7 +33,7 @@ const imprimirResultados = (resultado) => {
     document.getElementById('result').innerHTML = resultado;
 }
 
-imprimirResultados('ingresa un texto ✏️ para comprobar si es palindromo 🤖')
+imprimirResultados('✏️ ingresa un texto para comprobar si es palindromo 🤖')
 
 function comprobarPalindromo(){
     const texto = document.querySelector('#input-text').value;
