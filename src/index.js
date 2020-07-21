@@ -1,10 +1,11 @@
 const regexEspacios = /\s+/g
 
 const quitarEspacios = (texto) => {
-    if(texto.match(regexEspacios)){
-        return texto.replace(regexEspacios, '')
+    let minuscula = texto.toLowerCase()
+    if(minuscula.match(regexEspacios)){
+        return minuscula.replace(regexEspacios, '')
     }else{
-        return texto
+        return minuscula
     }
 }
 
@@ -13,7 +14,6 @@ const invertirTexto = (textoSinEspacios) => {
     let textoInvertido = '';
 
     while(indice >= 0){
-        debugger
         textoInvertido = textoInvertido + textoSinEspacios.charAt(indice)
         indice --;
     }
@@ -23,9 +23,9 @@ const invertirTexto = (textoSinEspacios) => {
 
 const esPalindromo = (textoInvertido, textoSinEspacios, texto) => {
     if (textoInvertido === textoSinEspacios){
-        return `✅ El string <strong> ${texto} </strong> SI es un palindromo`
+        return `✅ El texto <strong> ${texto} </strong> SI es un palindromo`
     }else{
-        return `❌ El string <strong> ${texto} </strong> NO es un palindromo`
+        return `❌ El texto <strong> ${texto} </strong> NO es un palindromo`
     }
 }
 
